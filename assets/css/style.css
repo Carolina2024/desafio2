@@ -1,0 +1,48 @@
+body {/*estilo cuerpo de la página*/
+  margin: 0px;/*quitar margen superior*/
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;/*tipografía para la página*/
+}
+
+.header {/*estilo para el header*/
+  height: 10em;/*alto de la caja*/
+  padding: 5em;/*aplicando relleno, espacio alrededor del contenido*/
+  font-size: 2em;/*tamaño de fuente 1em mide 16px, entonces 2m es 32px*/
+  background-image: url("../imgs/fondo.jpg");/*imagen de fondo*/
+  background-size: cover;/*tamaño imagen de fondo, en este caso la imagen se  auto ajusta al espacio*/
+  background-position: center;/*posición del elemento de fondo, en este caso se posiciona al centro*/
+  margin-bottom: 3em;/*margen inferior*/
+}
+
+.principal h1 {/*estilo para los h1 dentro de un elemento con clase header*/
+  margin: 0px;/*quitar margen superior*/
+  font-weight: 300;/* destacar palabra */
+}
+
+.bold {
+font-weight: 900;/* destacar palabra */
+}
+
+.contenido { /*estilo a los productos*/
+  width: 70%;/*ancho de la sección de productos*/
+  margin: auto;/*margin se ajusta*/
+}
+
+.products td {/*estilo elemento de fila*/
+  width: 20%;/*cada celda tendrá un 20% de ese 70%*/
+  padding: 2em;/*espacio alrededor del contenido*/
+}
+
+.products img {/*estilo de las imagenes*/
+  width: 100%; /*ancho de las imagenes*/
+  border: solid 1px #ddd;/*borde a la tabla de los productos*/
+}
+
+.footer {/*estilo del footer*/
+  height: 3em;/*height y line-height de igual valor se puede centrar verticalmente un texto de una sola línea*/
+  line-height: 3em;/*height y line-height de igual valor se puede centrar verticalmente un texto de una sola línea*/
+  background-color: rgb(12, 73, 241);/*color de fondo del footer*/
+  color: white;/*color de la letra*/
+  text-align: center;/*alineación del texto*/
+  font-weight: 700;/*grosor de la letra*/
+  margin-top: 1em;/*margen superior*/
+}
